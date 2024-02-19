@@ -3,6 +3,14 @@
 ### Genomic bin information is in the main folder named "bins.boundaries.txt"
 
 norm_bin_counts <- read.table("/.../norm_bin_counts.txt", header=T, as.is=T, stringsAsFactors=F)
+### normalization function ###
+normalize.matrix <- function (m, bincounts) {
+                ans <- m
+                for (i in 1:ncol(m)) {
+                                ans[,i] <- m[,i] * bincounts * 300 / sum(m[,i])
+                }
+                return(ans)
+}
 
 suffix <- seq(1:300)
 bin.names <- paste("b", suffix, sep="")
