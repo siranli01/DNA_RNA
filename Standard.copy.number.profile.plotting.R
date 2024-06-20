@@ -1,3 +1,4 @@
+######
 ### Standard 300-bin copy-number-profile plotting 
 ### input file is a 300-element vector "vector" representing the 300 template counts in each bin 
 ### bin-information file "bins.boundaries.txt" is in the main folder
