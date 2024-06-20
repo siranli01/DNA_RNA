@@ -1,3 +1,4 @@
+######
 ### DNA clustering based on copy number with sliding windows
 ### Input file is the normalized bin counts matrix "norm_bin_counts"
 ### Genomic bin information is in the main folder named "bins.boundaries.txt"
