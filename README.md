@@ -1,5 +1,5 @@
 # DNA_RNA
-# R code to create figures for the manuscript "High-throughput single-nucleus hybrid sequencing reveals genome-transcriptome correlations in cancer"
+# R code to create figures for the manuscript "DNA and RNA from the same single nucleus reveals interactions between genomic and transcriptomic landscapes in human tumor samples"
 
 ### Clusteing.based.on.copy.number.with.sliding.window.R
 It performs DNA clustering based on copy number. 
