@@ -1,3 +1,4 @@
+######
 ### Multinomial wheel analyses and plot using the original count matrix "ori_matrix" and the clustering result from Seurat object "Seurat_matrix"
 
 library(Seurat)
